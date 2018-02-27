@@ -8,3 +8,9 @@ bot.on("ready", function() {
 });
 
 bot.login("NDE4MDk4OTcyMjA5NTc3OTg0.DXcoog.Tbiihstrvr4vABVZahi7LG-W99g");
+
+bot.on('message', message => {
+    if (message.content === 'ping') {
+    message.channel.sendMessage('pong');
+  }
+});
