@@ -14,14 +14,3 @@ bot.on('message', message => {
     message.channel.sendMessage('pong');
   }
 });
-bot.on('message', message => {
-    if (message.content === 'Salut') {
-    message.channel.sendMessage('salut moi cest Jeff Tuche Heureux dte rencontrer mon ptit gars');
-  }
-});
-bot.on('message', message => {
-    if (message.content === 'Sa va') {
-    message.channel.sendMessage('bien et toi mon chti gars');
-  }
-});
-
